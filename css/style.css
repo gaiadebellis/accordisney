@@ -377,3 +377,18 @@ margin-bottom: 50px !important;
   color: white;
 }
 
+@media (min-width: 768px) {
+  .conn {
+    width: 45%;
+    margin: 17em;
+    margin-top: -4em;
+    margin-right: 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 85%;
+    margin: auto !important;
+}
+
+}
