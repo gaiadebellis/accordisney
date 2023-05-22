@@ -283,9 +283,19 @@ iframe {
 }
 
 .conn {
-  width: 20%;
-  height: auto;
-  margin-top: -250px;
+  width: 100%;
+  float: none;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  .conn {
+    width: 20%;
+    float: right;
+    margin-top: -275px;
+    margin-right: 100px;
+  }
 }
 .container {
   margin-top: 20px;
