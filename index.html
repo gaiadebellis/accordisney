@@ -1,69 +1,83 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R32TDDMJD8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-R32TDDMJD8');
-</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AccorDisney</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script src="https://kit.fontawesome.com/3f52385b48.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.google.com/specimen/Ysabeau#:~:text=%3Clink%20href%3D%22https,content_copy">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/3f52385b48.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.google.com/specimen/Ysabeau" rel="stylesheet">
 
+  </head>
 
   <body>
     <header>
-            <img id="logo" src="immagini/logo.png"> 
-     <nav>
-      <ul>   
-            <li><a class="active nounderline" href="index.html">Homepage</a></li> 
-            <li><a class="whitelink nounderline" href="brani.html">Brani</a></li>
-            <li><a class="whitelink nounderline" href="accordi.html" target="_blank">Accordi</a></li>
-            <li><a class="whitelink nounderline" href="community.html">Community</a></li>
-            <a class="icona" href="documentazione.html"><i class="fa-solid fa-paperclip"></i></a>
-            <a class="icona" href="login.html"><i class="fa-solid fa-circle-user"></i></a> 
-            <a class="icona" href="https://instagram.com/accordisney?igshid=MzNlNGNkZWQ4Mg==" ><i class="fa-brands fa-instagram"></i></a>
-     </ul>
-     </nav>
-    </header>
-    <div class="container"></div>
+        <div class="logo">
+          <img src="immagini/logo.png" alt="Logo">
+        </div>
+        <nav>
+          <ul class="desktop-menu">
+            <li><a class="inline act nounderline" href="index.html">Homepage</a></li>
+            <li><a class="inline whitelink nounderline" href="brani.html">Brani</a></li>
+            <li><a class="inline whitelink nounderline" href="accordi.html" target="_blank">Accordi</a></li>
+            <li><a class="inline whitelink nounderline" href="community.html">Community</a></li>
+            <li><a class="inline" href="login.html"><i class="fa-solid fa-circle-user"></i></a></li>
+          </ul>
+          
+          <ul class="mobile-menu">
+            <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="brani.html"><i class="fa-solid fa-music"></i></a></li>
+            <li><a href="accordi.html"><i class="fa-solid fa-file-circle-check"></i></a></li>
+            <li><a href="community.html"><i class="fa-regular fa-comments"></i></a></li>
+            <li><a href="login..html"><i class="fa-solid fa-circle-user"></i></a></li>
+          </ul>
+      
+        </nav>
+      </header>
 
-    <body>
-      <h1>Benvenuti su AccorDisney!</h1>
-      <h3 class="hometext">Divertitevi insieme a noi a suonare le canzoni che ci hanno fatto sognare da piccoli... E non solo!</h3>
-      <p class="hometext">Qui troverete tutto ciò di cui avete bisogno per immergervi nel meraviglioso mondo delle canzoni Disney.<br>
-      Venite a far parte della nostra community e scoprirete quanto la musica Disney possa essere divertente e coinvolgente!</p>
-      <h2 class="hometext">"Rendiamo la magia Disney ancora più musicale!"</h2>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+          <h1 class="hometext">Benvenuti su AccorDisney!</h1>
+          <h3 class="hometext">Divertitevi insieme a noi a suonare le canzoni che ci hanno fatto sognare da piccoli... E non solo!</h3>
+          <h5 class="hometext">Qui troverete tutto ciò di cui avete bisogno per immergervi nel meraviglioso mondo delle canzoni Disney.<br>
+          Venite a far parte della nostra community e scoprirete quanto la musica Disney possa essere divertente e coinvolgente!</h5>
+          <h4 class="hometext">"E' la musica che fa la magia, non la magia che fa la musica." - Walt Disney</h4>
+          </div>
 
-    <img id="homeimmagini" src="immagini/nuovacanz.png" class="conn" alt="nuova canzone ogni settimana">
+          <div class="col-12 col-lg-6">
+            <a href="https://www.instagram.com/accordisney/?next=%2F"><img src="immagini/nuovacanz.png" id="novità" alt="nuova canzone ogni settimana"></a>
+          </div>
 
-    <div class="grid-container">
+          <div class="col-12 col-lg-6">
+            <a href="brani.html"><img class="homecard" src="immagini/brani.png" alt="info brani"></a>
+          </div>
 
-      <div class="grid-item">
-        <a href="brani.html"><img class="homecard" src="immagini/brani.png" alt="info brani"></a>
+          <div class="col-12 col-lg-6">
+            <a href="accordi.html"><img class="homecard" src="immagini/accordidef.png" alt="info accordi"></a>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <a href="community.html"><img class="homecard" src="immagini/community.png" alt="info community"></a>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <a href="login.html"><img class="homecard" src="immagini/logindef.png" alt="info login"></a>
+          </div>
+        </div>
       </div>
-
-      <div class="grid-item">
-        <a href="accordi.html"><img class="homecard" src="immagini/accordidef.png" alt="info accordi"></a>
-      </div>
-
-      <div class="grid-item">
-        <a href="community.html"><img class="homecard" src="immagini/community.png" alt="info community"></a>
-      </div>
-
-      <div class="grid-item">
-        <a href="login.html"><img class="homecard" src="immagini/logindef.png" alt="info login"></a>
-      </div>
-    </div>
     </main>
+    <footer>
+		<div class="footer-links">
+			<a href="documentazione.html">Documentazione</a>
+		</div>
+		<div class="social-icons">
+		<a href="https://www.instagram.com/accordisney/?next=%2F"><p>Seguici su Instagram e partecipa ai sondaggi!<i class="fab fa-instagram"></i></a></p>
+		</div>
+    </footer>
 
   </body>
 </html>
