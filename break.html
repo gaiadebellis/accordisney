@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R32TDDMJD8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-R32TDDMJD8');
-</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AccorDisney</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/3f52385b48.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.google.com/specimen/Ysabeau#:~:text=%3Clink%20href%3D%22https,content_copy">
+    <link href="https://fonts.google.com/specimen/Ysabeau" rel="stylesheet">
+
   </head>
+
   <body>
     <header>
-      <img id="logo" src="immagini/logo.png">
-      <nav>
-        <ul>
-          <li><a class="whitelink nounderline" href="index.html">Homepage</a></li> 
-          <li><a class="active nounderline" href="brani.html">Brani</a></li>
-          <li><a class="whitelink nounderline" href="accordi.html">Accordi</a></li>
-          <li><a class="whitelink nounderline" href="community.html">Community</li>
-          <li><a class=icona href="documentazione.html"><i class="fa-solid fa-paperclip"></i></a></li>
-          <li><a class=icona href="login.html"><i class="fa-solid fa-circle-user"></i></a></li> 
-        </ul>
-      </nav>
-    </header>
+        <div class="logo">
+          <img src="immagini/logo.png" alt="Logo">
+        </div>
+        <nav>
+          <ul class="desktop-menu">
+            <li><a class="inline whitelink nounderline" href="index.html">Homepage</a></li>
+            <li><a class="inline act nounderline" href="brani.html">Brani</a></li>
+            <li><a class="inline whitelink nounderline" href="accordi.html" target="_blank">Accordi</a></li>
+            <li><a class="inline whitelink nounderline" href="community.html">Community</a></li>
+            <li><a class="inline" href="login.html"><i class="fa-solid fa-circle-user"></i></a></li>
+          </ul>
+          
+          <ul class="mobile-menu">
+            <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="brani.html"><i class="fa-solid fa-music"></i></a></li>
+            <li><a href="accordi.html"><i class="fa-solid fa-file-circle-check"></i></a></li>
+            <li><a href="community.html"><i class="fa-regular fa-comments"></i></a></li>
+            <li><a href="login..html"><i class="fa-solid fa-circle-user"></i></a></li>
+          </ul>
+        </nav>
+      </header>
+
 
     <main>
-      <h2 class="indicebranitext">Indice:</h2>
-      <label for="brani" class="indicebranitextpop">Indice:</label>
+      
+      <div class="centred">
       <select id="brani" class="branitext sans-serif" onchange="location = this.value;">
-        <option value="index.html">Homepage</option>
+        <option value="brani.html">Brani</option>
         <option value="alba.html">All'alba sorgerò - Frozen</option>
         <option value="break.html">Breaking free - High School Musical</option>
         <option value="hakuna.html">Hakuna matata - Il Re leone</option>
@@ -47,13 +52,30 @@
         <option value="inogniparte.html">In ogni parte del mio corazon - Coco</option>
         <option value="nonsinomina.html">Non si nomina Bruno - Encanto</option>
         <option value="oltre.html">Oltre l'orizzonte - Oceania</option>
-      </select>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7gF9RfiO8nBhFhBkLuiUrb?utm_source=generator&theme=0" width="300" height="352" frameBorder="0" allowfullscreen="" 
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      <a href="break.html"><img src="testicanzoni/break1.png" class="fotocanz"></a>
-      <a href="break.html"><img src="testicanzoni/break2.png" class="fotocanz"></a>
-    </main>
+      </select><br>
 
-    <footer></footer>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7gF9RfiO8nBhFhBkLuiUrb?utm_source=generator" width="75%" height="152" frameBorder="0" allowfullscreen=""
+       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div><br>
+
+      <table class="testo-table-tel">
+          <tr><td><img class="testi" src="testicanzoni/break1.png" alt="testo Breaking free-High School Musical"></td></tr>
+          <tr><td><img class="testi" src="testicanzoni/break2.png" alt="testo Breaking free-High School Musical"></a></td></tr>
+      </table>
+
+      <table class="testo-table-pc">
+        <tr><td><img class="testi" src="testicanzoni/break1.png" alt="testo Breaking free-High School Musical"></td>
+        <td><img class="testi" src="testicanzoni/break2.png" alt="testo Breaking free-High School Musical"></a></td></tr>
+      </table>
+
+    </main>
+    <footer>
+		<div class="footer-links">
+			<a href="documentazione.html">Documentazione</a>
+		</div>
+		<div class="social-icons">
+		<a href="https://www.instagram.com/accordisney/?next=%2F"><p>Seguici su Instagram e partecipa ai sondaggi!
+      <i class="fab fa-instagram"></i></a></p><br>
+		</div>
+    </footer>
   </body>
 </html>
