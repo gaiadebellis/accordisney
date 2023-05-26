@@ -1,51 +1,64 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R32TDDMJD8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-R32TDDMJD8');
-</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AccorDisney</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script src="https://kit.fontawesome.com/3f52385b48.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/3f52385b48.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.google.com/specimen/Ysabeau" rel="stylesheet">
+
   </head>
+
   <body>
     <header>
-            <img id="logo" src="immagini/logo.png">
-            <nav>
-              <ul>
-                <li><a class="whitelink nounderline" href="index.html">Homepage</a></li> 
-                            <li><a class="whitelink nounderline" href="brani.html">Brani</a></li>
-                            <li><a class="whitelink nounderline" href="accordi.html" target="_blank">Accordi</a></li>
-                            <li><a class="active nounderline" href="community.html">Community</a></li>
-                            
-                            <a class="icona" href="documentazione.html"><i class="fa-solid fa-paperclip"></i></a>        
-                            <a class="icona" href="login.html"><i class="fa-solid fa-circle-user"></i></a> 
-                            <a class="icona" href="https://instagram.com/accordisney?igshid=MzNlNGNkZWQ4Mg==" 
-                            target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        
-                </ul>
-              </ul>
-             </nav>
-    </header>
-    <main>
-
-      <img class=chat src="chat/guitarguis.png" alt="colori">
-      <img class=chat src="chat/pianoguys.png" alt="colori">
-      <img class=chat src="chat/ukuleleguys.png" alt="colori">
-
-
-    
-      </body>
-    </main>
+        <div class="logo">
+          <img src="immagini/logo.png" alt="Logo">
+        </div>
+        <nav>
+          <ul class="desktop-menu">
+            <li><a class="inline whitelink nounderline" href="index.html">Homepage</a></li>
+            <li><a class="inline whitelink nounderline" href="brani.html">Brani</a></li>
+            <li><a class="inline whitelink nounderline" href="accordi.html">Accordi</a></li>
+            <li><a class="inline act nounderline" href="community.html">Community</a></li>
+            <li><a class="inline" href="login.html"><i class="fa-solid fa-circle-user"></i></a></li>
+          </ul>
+          
+          <ul class="mobile-menu">
+            <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="brani.html"><i class="fa-solid fa-music"></i></a></li>
+            <li><a href="accordi.html"><i class="fa-solid fa-file-circle-check"></i></a></li>
+            <li><a href="community.html"><i class="fa-regular fa-comments"></i></a></li>
+            <li><a href="login.html"><i class="fa-solid fa-circle-user"></i></a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="comm-table-wrapper">
+          <table class="comm-table-pc">
+            <tr>
+              <td><img class="chat" src="chat/1.png" alt="chat chitarra"></td>
+              <td><img class="chat" src="chat/3.png" alt="chat piano" ></td>
+              <td><img class="chat" src="chat/2.png" alt="chat ukulele"></td>
+            </tr>
+          </table>
+          <table class="comm-table-tel">
+            <tr><td><img class="chat" src="chat/1.png" alt="chat chitarra"></td></tr>
+            <tr><td><img class="chat" src="chat/3.png" alt="chat piano"></td></tr>
+            <tr><td><img class="chat" src="chat/2.png" alt="chat ukulele"></td></tr>
+          </table>
+        </div>
+      </main>
     <footer>
-
-      
-     </footer>
-   </body>
- </html>
+		<div class="footer-links">
+			<a href="documentazione.html">Documentazione</a>
+		</div>
+		<div class="social-icons">
+		<a href="https://www.instagram.com/accordisney/?next=%2F"><p>Seguici su Instagram e partecipa ai sondaggi!
+      <i class="fab fa-instagram"></i></a></p><br>
+		</div>
+    </footer>
+  </body>
+</html>
