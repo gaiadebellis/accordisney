@@ -119,6 +119,7 @@ padding: 0.5em;
 
 .homecard:hover {
 transform: scale(1.1);
+transition: 1 ease;
 }
 
 #novità {
@@ -249,6 +250,10 @@ select:hover {
   display: block !important;
 }
 
+.copertine:hover {
+  transform: scale(1.1);
+  transition: 1 ease;
+  }
 .brani-table-tel{
   display: none;
 }
@@ -285,6 +290,11 @@ select:hover {
   .strum {
     width: 90%;
   }
+
+  .strum:hover {
+    transform: scale(1.1);
+    transition: 1 ease;
+    }
   
   .acc-table-tel {
     display: none;
